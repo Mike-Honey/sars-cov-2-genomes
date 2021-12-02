@@ -1,2 +1,31 @@
 # sars-cov-2-genomes
-SARS-CoV-2 genome data analysis
+DataViz Projects on topic of SARS-CoV-2 genomic sequencing. 
+
+## gisaid - Omicron mutation matches
+
+Searches recent gisaid data for samples that are:
+- not categorised by GISAID/PANGO as B.1.1.529 (Omicron)
+- have AA Substitutions matching the [Fleishon-Lerner list of mutations](https://twitter.com/shay_fleishon/status/1464284684565819397?s=20)
+
+The resulting samples might represent unreported Omicron variants of the virus, or related variants. Further expert investigation will be needed to resolve those questions.
+
+For convenience and data integration, the [key results are shared as a google sheets doc](https://docs.google.com/spreadsheets/d/1-ssRpjnZJvrAPKRAfGDbuSTNcBo8AVpY/edit?usp=sharing&ouid=101619930749022044567&rtpof=true&sd=true)
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9310de6625210c756f33)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-omicron-mutation-matches.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9310de6625210c756f33)
+
+
+**Summary**
+
+From [gisaid.org](https://gisaid.org) we gather their EpiCoV metadata dataset. For most countries, this dataset is the most complete and up-to-date available.  This can be added to with gisaid search results (e.g. for the most recent samples), downloaded in "Patient status metadata" format.
+
+The AA Substitution values for each gisaid sample are matched to the [Fleishon-Lerner list of mutations](https://twitter.com/shay_fleishon/status/1464284684565819397?s=20).
+
+The default page shows the samples with highest count of AA Substitution matches.  Selecting each row in the matches table (left) cross-filters the table of AA Substitution matches table (right), showing exactly which mutations were matched.
+
+
+In this project, the data is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.
+
+GISAID citation:
+Elbe, S., and Buckland-Merrett, G. (2017) Data, disease and diplomacy: GISAID’s innovative contribution to global health. Global Challenges, 1:33-46. DOI:10.1002/gch2.1018  PMCID: 31565258
