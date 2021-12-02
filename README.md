@@ -5,9 +5,9 @@ DataViz Projects on topic of SARS-CoV-2 genomic sequencing.
 
 Searches recent gisaid data for samples that are:
 - not categorised by GISAID/PANGO as B.1.1.529 (Omicron)
-- have AA Substitutions matching the [Fleishon-Lerner list of mutations](https://twitter.com/shay_fleishon/status/1464284684565819397?s=20)
+- have AA Substitutions matching the [Fleishon-Lerner consensus mutation list of B.1.1.529](https://twitter.com/shay_fleishon/status/1464284684565819397?s=20)
 
-The resulting samples might represent unreported Omicron variants of the virus, or related variants. Further expert investigation will be needed to resolve those questions.
+The resulting samples might represent unreported Omicron cases, or related variants. Further expert investigation will be needed to resolve those questions.
 
 For convenience and data integration, the [key results are shared as a google sheets doc](https://docs.google.com/spreadsheets/d/1-ssRpjnZJvrAPKRAfGDbuSTNcBo8AVpY/edit?usp=sharing&ouid=101619930749022044567&rtpof=true&sd=true)
 
