@@ -5,7 +5,7 @@ DataViz Projects on topic of SARS-CoV-2 genomic sequencing.
 
 Searches recent gisaid data for samples that are:
 - not categorised by GISAID/PANGO as B.1.1.529 (Omicron)
-- have AA Substitutions matching the [Fleishon-Lerner consensus mutation list of B.1.1.529](https://twitter.com/shay_fleishon/status/1464284684565819397?s=20)
+- have AA Substitutions matching several lists of mutations (see below)
 
 The resulting samples might represent unreported Omicron cases, or related variants. Further expert investigation will be needed to resolve those questions.
 
@@ -20,9 +20,11 @@ For convenience and data integration, the [key results are shared as a google sh
 
 From [gisaid.org](https://gisaid.org) we gather their EpiCoV metadata dataset. For most countries, this dataset is the most complete and up-to-date available.  This can be added to with gisaid search results (e.g. for the most recent samples), downloaded in "Patient status metadata" format.
 
-The AA Substitution values for each gisaid sample are matched to the [Fleishon-Lerner list of mutations](https://twitter.com/shay_fleishon/status/1464284684565819397?s=20).
+The AA Substitution values for each gisaid sample are matched to several list of mutations:
+- the [Fleishon-Lerner list of mutations](https://twitter.com/shay_fleishon/status/1464284684565819397?s=20).
+- the [list of mutations for Omicron on cov-lineages.org](https://cov-lineages.org/constellations.html).
 
-The default page shows the samples with highest count of AA Substitution matches.  Selecting each row in the matches table (left) cross-filters the table of AA Substitution matches table (right), showing exactly which mutations were matched.
+The default page shows the samples with highest count of AA Substitution matches.  Choose the desired **Lineage by Mutation List** from the slicer control at the right. Selecting each row in the matches table (left) cross-filters the table of AA Substitution matches table (right), showing exactly which mutations were matched.  Clicking any column heading re-sorts the table (shift-click for multiple columns).
 
 
 In this project, the data is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.
