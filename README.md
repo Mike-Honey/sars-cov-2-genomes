@@ -1,7 +1,20 @@
 # sars-cov-2-genomes
 DataViz Projects on topic of SARS-CoV-2 genomic sequencing. 
 
-## gisaid - Omicron mutation matches
+## gisaid - mutation matches
+
+Filter recent gisaid data by Continent/Country/Location and/or by Lineage etc. Top chart shows sample counts.
+
+Select any mutation entry from the AA Substitutions table to highlight the sequences with that mutation.  Ctrl-click to multi-select.
+
+Top chart shows sample counts, 2nd chart shows %, bottom grey chart shows the sample size for all Lineages.
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc9e1678d2231c36710b3)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-omicron-mutation-matches.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc9e1678d2231c36710b3)
+
+
+## gisaid - Omicron mutation matches - Fleishon-Lerner consensus
 
 Searches recent gisaid data for samples that are:
 - not categorised by GISAID/PANGO as B.1.1.529 (Omicron)
@@ -9,23 +22,22 @@ Searches recent gisaid data for samples that are:
 
 The resulting samples might represent unreported Omicron cases, or related variants. Further expert investigation will be needed to resolve those questions.
 
+The table shows the samples with highest count of AA Substitution matches.  Choose the desired **Lineage by Mutation List** from the slicer control at the right. Selecting each row in the matches table (left) cross-filters the table of AA Substitution matches table (right), showing exactly which mutations were matched.  Clicking any column heading re-sorts the table (shift-click for multiple columns).
+
 For convenience and data integration, the [key results are shared as a google sheets doc](https://docs.google.com/spreadsheets/d/1-ssRpjnZJvrAPKRAfGDbuSTNcBo8AVpY/edit?usp=sharing&ouid=101619930749022044567&rtpof=true&sd=true)
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9310de6625210c756f33)
 
-[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-omicron-mutation-matches.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9310de6625210c756f33)
+[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-omicron-mutation-matches-FL.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9310de6625210c756f33)
 
 
 **Summary**
 
 From [gisaid.org](https://gisaid.org) we gather their EpiCoV metadata dataset. For most countries, this dataset is the most complete and up-to-date available.  This can be added to with gisaid search results (e.g. for the most recent samples), downloaded in "Patient status metadata" format.
 
-The AA Substitution values for each gisaid sample are matched to several list of mutations:
+The AA Substitution values for each gisaid sample can be analysed in total, or by matching to several list of mutations:
 - the [Fleishon-Lerner list of mutations](https://twitter.com/shay_fleishon/status/1464284684565819397?s=20).
 - the [list of mutations for Omicron on cov-lineages.org](https://cov-lineages.org/constellations.html).
-
-The default page shows the samples with highest count of AA Substitution matches.  Choose the desired **Lineage by Mutation List** from the slicer control at the right. Selecting each row in the matches table (left) cross-filters the table of AA Substitution matches table (right), showing exactly which mutations were matched.  Clicking any column heading re-sorts the table (shift-click for multiple columns).
-
 
 In this project, the data is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.
 
