@@ -24,7 +24,7 @@ The resulting samples might represent unreported Omicron cases, or related varia
 
 The table shows the samples with highest count of AA Substitution matches.  Choose the desired **Lineage by Mutation List** from the slicer control at the right. Selecting each row in the matches table (left) cross-filters the table of AA Substitution matches table (right), showing exactly which mutations were matched.  Clicking any column heading re-sorts the table (shift-click for multiple columns).
 
-For convenience and data integration, the [key results are shared as a google sheets doc](https://docs.google.com/spreadsheets/d/1-ssRpjnZJvrAPKRAfGDbuSTNcBo8AVpY/edit?usp=sharing&ouid=101619930749022044567&rtpof=true&sd=true)
+For convenience and data integration, the [key results are shared as an Excel file](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-omicron-mutation-matches-FL.xlsx)
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9310de6625210c756f33)
 
