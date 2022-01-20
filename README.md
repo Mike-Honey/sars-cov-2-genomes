@@ -5,7 +5,7 @@ DataViz Projects on topic of SARS-CoV-2 genomic sequencing.
 
 Filter recent gisaid data by Continent/Country and by Lineage, date range etc. 
 
-Select any mutation from the AA Substitutions to chart the frequency of sequences with that mutation by country, over time.
+Select any mutation from the AA Substitutions to chart the frequency of sequences with that mutation by country, over time. Top 5 countries (by sample volume) shown.
 
 Bottom grey chart shows the sample size for all Lineages.
 
@@ -18,7 +18,7 @@ Bottom grey chart shows the sample size for all Lineages.
 
 Filter recent gisaid data by Continent/Country/Location and by Lineage, date range etc. 
 
-Select any mutation from the AA Substitutions to chart the frequency of sequences with that mutation by location (state/province/region etc), over time.
+Select any mutation from the AA Substitutions to chart the frequency of sequences with that mutation by location (state/province/region etc), over time. Top 5 locations (by sample volume) shown.
 
 Bottom grey chart shows the sample size for all Lineages.
 
