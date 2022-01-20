@@ -7,7 +7,7 @@ Filter recent gisaid data by Continent/Country and by Lineage, date range etc.
 
 Select any mutation from the AA Substitutions to chart the frequency of sequences with that mutation by country, over time. Top 5 countries (by sample volume) shown.
 
-Bottom grey chart shows the sample size for all Lineages.
+The note at the top-right and grey chart across the bottom show the sample size for all Lineages.
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc83216eeed0a8b1d1d32)
 
@@ -20,7 +20,7 @@ Filter recent gisaid data by Continent/Country/Location and by Lineage, date ran
 
 Select any mutation from the AA Substitutions to chart the frequency of sequences with that mutation by location (state/province/region etc), over time. Top 5 locations (by sample volume) shown.
 
-Bottom grey chart shows the sample size for all Lineages.
+The note at the top-right and grey chart across the bottom show the sample size for all Lineages.
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionec7dd9b417c8edb0f82d)
 
@@ -33,7 +33,9 @@ Filter recent gisaid data by Continent/Country/Location and/or by Lineage etc. T
 
 Select any mutation entry from the AA Substitutions table to highlight the sequences with that mutation.  Ctrl-click to multi-select.
 
-Top chart shows sample counts, 2nd chart shows %, bottom grey chart shows the sample size for all Lineages.
+Top chart shows sample counts, 2nd chart shows % (of the selected Lineages). 
+
+The note at the top-right and grey chart across the bottom show the sample size for all Lineages.
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc9e1678d2231c36710b3)
 
