@@ -1,7 +1,33 @@
 # sars-cov-2-genomes
 DataViz Projects on topic of SARS-CoV-2 genomic sequencing. 
 
-## gisaid - mutation matches
+## gisaid - mutation matches - countries
+
+Filter recent gisaid data by Continent/Country and by Lineage, date range etc. 
+
+Select any mutation from the AA Substitutions to chart the frequency of sequences with that mutation by country, over time.
+
+Bottom grey chart shows the sample size for all Lineages.
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc83216eeed0a8b1d1d32)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-omicron-mutation-matches-countries.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc83216eeed0a8b1d1d32)
+
+
+## gisaid - mutation matches - locations
+
+Filter recent gisaid data by Continent/Country/Location and by Lineage, date range etc. 
+
+Select any mutation from the AA Substitutions to chart the frequency of sequences with that mutation by location (state/province/region etc), over time.
+
+Bottom grey chart shows the sample size for all Lineages.
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionec7dd9b417c8edb0f82d)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-omicron-mutation-matches-countries.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionec7dd9b417c8edb0f82d)
+
+
+## gisaid - mutation matches - details
 
 Filter recent gisaid data by Continent/Country/Location and/or by Lineage etc. Top chart shows sample counts.
 
