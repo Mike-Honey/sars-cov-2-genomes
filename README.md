@@ -1,5 +1,5 @@
 # sars-cov-2-genomes
-DataViz Projects on topic of SARS-CoV-2 genomic sequencing. 
+DataViz Projects on topic of SARS-CoV-2 genomic sequencing, featuring search/matching of mutations (AA Substitutions).
 
 ## gisaid - mutation matches - countries
 
