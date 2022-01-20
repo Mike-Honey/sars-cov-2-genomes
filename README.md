@@ -65,6 +65,8 @@ The AA Substitution values for each gisaid sample can be analysed in total, or b
 - the [Fleishon-Zuckerman list of mutations](https://github.com/NetaZuckerman/covid19/blob/master/mutationsTable.xlsx).
 - the [list of mutations for Omicron on cov-lineages.org](https://cov-lineages.org/constellations.html).
 
+I'm following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 5 countries/locations in the selected data. For each chart point, the frequency of that lineage + mutation in the last 7 days is calculated, always comparing to all the sequencing data available for that country/location.
+
 In this project, the data is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.
 
 GISAID citation:
