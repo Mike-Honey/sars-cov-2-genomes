@@ -27,6 +27,32 @@ The note at the top-right and grey chart across the bottom show the sample size 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-mutation-matches-countries.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionec7dd9b417c8edb0f82d)
 
 
+
+## gisaid - L2 lineage share log
+
+Filter recent gisaid data by Continent/Country/Location and by Lineage, date range etc. 
+
+Select any mutation from the AA Substitutions to chart the growth of those samples against a "L2" Lineage e.g. BA.2.*.
+
+The note at the top-right and grey chart across the bottom show the sample size for all Lineages.
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection45c87ba01073b95d9724)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-share-L2.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection45c87ba01073b95d9724)
+
+## gisaid - lineage share log
+
+Filter recent gisaid data by Continent/Country/Location and by Lineage, date range etc. 
+
+Select any mutation from the AA Substitutions to chart the growth of those samples against a Lineage e.g. BA.5.2.
+
+The note at the top-right and grey chart across the bottom show the sample size for all Lineages.
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection34fa84e04067e4430099)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-share.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection34fa84e04067e4430099)
+
+
 ## gisaid - mutation matches - details
 
 Filter recent gisaid data by Continent/Country/Location and/or by Lineage etc. Top chart shows sample counts.
