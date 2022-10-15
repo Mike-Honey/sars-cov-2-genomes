@@ -48,6 +48,8 @@ Select any mutation from the AA Substitutions to chart the growth of those sampl
 
 The note at the top-right and grey chart across the bottom show the sample size for all Lineages.
 
+The Lineage growth comparison (log) page was suggested by [Uffe Poulsen](https://twitter.com/uffe1974/status/1485541093257134083?s=20), based to a chart produced by [Alex Selby](https://twitter.com/alexselby1770/status/1485286177104146432?s=20&t=MAjjMu7UC9MWuOUN0_cr1A).
+
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection34fa84e04067e4430099)
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-share.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection34fa84e04067e4430099)
