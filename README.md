@@ -61,6 +61,8 @@ Filter recent gisaid data by Continent/Country/Location and/or by Lineage etc. S
 
 Then scroll down the table summarising the mutations found, drilling in to any rows of interest. The rows can be drilled by AA Prefix (e.g. "Spike"), AA Substitution e.g. Spike R346T, Country and Location.  On each row, the count of matching samples is shown, along with a sparkline by Collection date.
 
+Select any row to filter the detailed table at the right.
+
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionabf46211c8e6288d5a65)
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-mutation-matches-freq.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionabf46211c8e6288d5a65)
