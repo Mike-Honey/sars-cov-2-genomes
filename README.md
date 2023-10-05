@@ -73,11 +73,15 @@ Select any row to filter the detailed table at the right.
 
 From [gisaid.org](https://gisaid.org) we gather their EpiCoV metadata dataset. For most countries, this dataset is the most complete and up-to-date available.  This can be added to with gisaid search results (e.g. for the most recent samples), downloaded in "Patient status metadata" format.
 
-The AA Substitution values for each gisaid sample can be used as a filter, either independently or together with GISAID's PANGO lineages.
+The AA Substitution values for each gisaid sample can be used as a filter, either independently or together with GISAID's PANGO lineages. Their frequencies and trends over time can be compared on the frequency page.
 
-I'm following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 5 countries/locations in the selected data. For each chart point, the frequency of that lineage + mutation in the last 7 days is calculated, always comparing to all the sequencing data available for that country/location.
+From [nextclade](https://nextclade.org) we classify the gisaid samples to obtain the nextclade pango lineage, plus the AA & nucleotide insertions, deletions & substitutions, frameshifts and reversions (using the nextclade cli tool). These attributes can be used as a filter for any analysis. Their frequencies and trends over time can be compared on the frequency page.
 
-In this project, the data is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.
+I'm mainly following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 5 countries/locations in the selected data. For each chart point, the frequency of that lineage + mutation in the last 7 days is calculated, always comparing to all the sequencing data available for that country/location.
+
+Other visualisations include interactive drill-down tables to compare mutations, and an interactive map that can be "played" over time - to help understand the geographic spread of any sub-set of samples.
+
+In this project, the data is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data and presentation in multiple formats, for faster easier analysis.
 
 GISAID citation:
 Elbe, S., and Buckland-Merrett, G. (2017) Data, disease and diplomacy: GISAID’s innovative contribution to global health. Global Challenges, 1:33-46. DOI:10.1002/gch2.1018  PMCID: 31565258
