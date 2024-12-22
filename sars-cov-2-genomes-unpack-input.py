@@ -1,5 +1,6 @@
 import datetime
 import os
+import pandas
 import tarfile
 
 
@@ -28,6 +29,14 @@ def main():
             print (str(datetime.datetime.now()) + ' Extracting: ' + filename)
             tar.extractall(path=datadir)
             tar.close()
+            print (str(datetime.datetime.now()) + ' Finished unzip of ' + filename )
+
+    metadata_latest = pandas.read_csv(datadir + 'metadata.tsv', delimiter='\t')
+    # Filter the data accordingly.
+    metadata_latest = metadata_latest[metadata_latest['Collection date'] > '2023-12-22']
+    metadata_latest.to_csv(datadir + 'metadata_latest.tsv', sep='\t')
+    print (str(datetime.datetime.now()) + ' Finished writing of metadata_latest.tsv' )
+
 
     print (str(datetime.datetime.now()) + ' Finished!')
     exit()
