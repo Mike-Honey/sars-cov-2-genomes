@@ -95,7 +95,7 @@ Use the slider controls next to each chart axis to "zoom in" to a zone of intere
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=2612a1414823bdcad0b2)
 
-[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-mutation-matches-mutation-scatter.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=2612a1414823bdcad0b2)
+[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-mutation-scatter.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=2612a1414823bdcad0b2)
 
 
 **Summary**
@@ -109,6 +109,8 @@ From [nextclade](https://nextclade.org) we classify the gisaid samples to obtain
 I'm mainly following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 5 countries/locations in the selected data. For each chart point, the frequency of that lineage + mutation in the last 7 days is calculated, always comparing to all the sequencing data available for that country/location.
 
 Other visualisations include interactive drill-down tables to compare mutations, and an interactive map that can be "played" over time - to help understand the geographic spread of any sub-set of samples.
+
+The design for the mutation scatter page was was heavily inspired by the [lungfish dataviz](https://lungfish-science.github.io/wastewater-dashboard/dashboard1.html#scatter-plot-visualization), produced by [Marc Johnson's group](https://x.com/SolidEvidence).
 
 In this project, the data is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data and presentation in multiple formats, for faster easier analysis.
 
