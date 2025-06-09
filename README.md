@@ -87,6 +87,17 @@ Track the weekly progress of selected mutations for any combination of Continent
 [![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-mutation-matches-geography-freq.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9ee4b4e849ecf1f7e269)
 
 
+## gisaid mutation scatter
+
+Compare the week-on-week growth rates of mutations for any combination of Continents and Countries. Shows the proportion of samples with each mutation for the latest week vs the prior week. Mutations plotted above the diagonal split are becoming more frequent. Hover over any point to view the most frequent lineages with that mutation, and a spark-line showing the frequency growth.
+
+Use the slider controls next to each chart axis to "zoom in" to a zone of interest.
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=2612a1414823bdcad0b2)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/sars-cov-2-genomes/raw/main/sars-cov-2-genomes-mutation-matches-mutation-scatter.png)](https://app.powerbi.com/view?r=eyJrIjoiNGY2ZDM3OTQtNTNmZC00Zjc0LTg1N2EtOGVkYmE2ZmI4NmQ5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=2612a1414823bdcad0b2)
+
+
 **Summary**
 
 From [gisaid.org](https://gisaid.org) we gather their EpiCoV metadata dataset. For most countries, this dataset is the most complete and up-to-date available.  This can be added to with gisaid search results (e.g. for the most recent samples), downloaded in "Patient status metadata" format.
