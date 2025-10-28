@@ -1,11 +1,11 @@
 # sars-cov-2-genomes
-DataViz Projects on topic of SARS-CoV-2 genomic sequencing, featuring search/matching of mutations (AA Substitutions).
+DataViz Projects on topic of SARS-CoV-2 genomic sequencing, featuring search/matching of mutations (AA Substitutions, Spike, Nuceleotide insertions, deletions, reversions etc).
 
 ## gisaid - mutation matches - countries
 
 Filter recent gisaid data by Continent/Country and by Lineage, date range etc. 
 
-Select any mutation from the AA Substitutions to chart the frequency of sequences with that mutation by country, over time. Top 5 countries (by sample volume) shown.
+Select any mutation(s) from the list to chart the frequency of sequences with that mutation by country, over time. Top 7 countries (by sample volume) shown.
 
 The note at the top-right and grey chart across the bottom show the sample size for all Lineages.
 
@@ -18,7 +18,7 @@ The note at the top-right and grey chart across the bottom show the sample size 
 
 Filter recent gisaid data by Continent/Country/Location and by Lineage, date range etc. 
 
-Select any mutation from the AA Substitutions to chart the frequency of sequences with that mutation by location (state/province/region etc), over time. Top 5 locations (by sample volume) shown.
+Select any mutation from the list to chart the frequency of sequences with that mutation by location (state/province/region etc), over time. Top 7 locations (by sample volume) shown.
 
 The note at the top-right and grey chart across the bottom show the sample size for all Lineages.
 
@@ -32,7 +32,7 @@ The note at the top-right and grey chart across the bottom show the sample size 
 
 Filter recent gisaid data by Continent/Country/Location and by Lineage, date range etc. 
 
-Select any mutation from the AA Substitutions to chart the growth of those samples against a "L2" Lineage e.g. BA.2.*.
+Select any mutation from the list to chart the growth of those samples against a "L2" Lineage e.g. BA.2.*.
 
 The note at the top-right and grey chart across the bottom show the sample size for all Lineages.
 
@@ -44,7 +44,7 @@ The note at the top-right and grey chart across the bottom show the sample size 
 
 Filter recent gisaid data by Continent/Country/Location and by Lineage, date range etc. 
 
-Select any mutation from the AA Substitutions to chart the growth of those samples against a Lineage e.g. BA.5.2.
+Select any mutation from the list to chart the growth of those samples against a Lineage e.g. BA.5.2.
 
 The note at the top-right and grey chart across the bottom show the sample size for all Lineages.
 
@@ -57,9 +57,9 @@ The Lineage growth comparison (log) page was suggested by [Uffe Poulsen](https:/
 
 ## gisaid mutation frequency
 
-Filter recent gisaid data by Continent/Country/Location and/or by Lineage etc. Select a required AA Substition which will apply as a filter.
+Filter recent gisaid data by Continent/Country/Location and/or by Lineage etc. Select a required mutation which will apply as a filter.
 
-Then scroll down the table summarising the mutations found, drilling in to any rows of interest. The rows can be drilled by AA Prefix (e.g. "Spike"), AA Substitution e.g. Spike R346T, Country and Location.  On each row, the count of matching samples is shown, along with a sparkline by Collection date.
+Then scroll down the table summarising the mutations found, drilling in to any rows of interest. The rows can be drilled by Mutation type (e.g. "Spike"), and specific mutation e.g. S:R346T, Country and Location.  On each row, the count of matching samples is shown, along with a sparkline by Collection date.
 
 Select any row to filter the detailed table at the right.
 
